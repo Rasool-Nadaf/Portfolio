@@ -656,6 +656,14 @@ button.phone-tile {
   border: none;
 }
 
+.page-content .stat-strip {
+  margin-top: 48px;
+}
+
+@media (max-width: 860px) {
+  .page-content .stat-strip { margin-top: 32px; }
+}
+
 .stat-strip .stat {
   background: var(--surface);
   border-radius: 20px;
