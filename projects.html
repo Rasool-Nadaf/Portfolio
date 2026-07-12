@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Projects — Rasool Nadaf</title>
+<link rel="stylesheet" href="assets/css/style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+
+<nav class="site-nav">
+  <div class="wrap">
+    <a href="index.html" class="nav-brand"><span class="dot"></span> rasool.swift</a>
+    <div class="nav-right">
+      <a href="assets/Rasool_Nadaf_Resume.pdf" download class="nav-cv"><span class="cv-full">Download CV</span><span class="cv-short">CV</span></a>
+    </div>
+  </div>
+</nav>
+
+<div class="page-shell">
+<div class="phone-nav-wrap">
+  <div class="phone-frame">
+    <div class="phone-notch"></div>
+    <div class="phone-screen">
+      <div class="phone-statusbar">
+        <span>9:41</span>
+        <span class="phone-statusbar-icons"><i class="fa-solid fa-signal" aria-hidden="true"></i><i class="fa-solid fa-wifi" aria-hidden="true"></i><i class="fa-solid fa-battery-full" aria-hidden="true"></i></span>
+      </div>
+      <div class="phone-notification">
+        <div class="notif-icon">RN</div>
+        <div class="notif-body">
+          <div class="notif-top"><span class="notif-app">Portfolio</span><span class="notif-time">now</span></div>
+          <div class="notif-msg">You're viewing Projects</div>
+        </div>
+      </div>
+      <div class="phone-grid">
+        <a href="index.html" class="phone-tile"><i class="fa-solid fa-house" aria-hidden="true"></i><span>Home</span></a>
+        <a href="experience.html" class="phone-tile"><i class="fa-solid fa-briefcase" aria-hidden="true"></i><span>Experience</span></a>
+        <a href="skills.html" class="phone-tile"><i class="fa-solid fa-code" aria-hidden="true"></i><span>Skills</span></a>
+        <a href="projects.html" class="phone-tile current"><i class="fa-solid fa-layer-group" aria-hidden="true"></i><span>Projects</span></a>
+        <a href="achievements.html" class="phone-tile"><i class="fa-solid fa-trophy" aria-hidden="true"></i><span>Achievements</span></a>
+        <button type="button" class="phone-tile phone-tile-contact" data-contact-toggle aria-expanded="false" aria-controls="contactPanel"><i class="fa-solid fa-address-card" aria-hidden="true"></i><span>Contact</span></button>
+        <a href="assets/Rasool_Nadaf_Resume.pdf" download class="phone-tile phone-tile-cv"><i class="fa-solid fa-download" aria-hidden="true"></i><span>Download CV</span></a>
+      </div>
+      <div class="phone-contact-panel" id="contactPanel" data-contact-panel hidden>
+        <a href="mailto:rasoolnadaf2018@gmail.com" class="contact-icon contact-icon-mail" aria-label="Email"><i class="fa-solid fa-envelope" aria-hidden="true"></i></a>
+        <a href="tel:+919353182445" class="contact-icon contact-icon-call" aria-label="Call"><i class="fa-solid fa-phone" aria-hidden="true"></i></a>
+        <a href="https://www.linkedin.com/in/rasool-nadaf-2a7974299" target="_blank" rel="noopener" class="contact-icon contact-icon-linkedin" aria-label="LinkedIn"><i class="fa-brands fa-linkedin" aria-hidden="true"></i></a>
+        <a href="https://github.com/Rasool-Nadaf" target="_blank" rel="noopener" class="contact-icon contact-icon-github" aria-label="GitHub"><i class="fa-brands fa-github" aria-hidden="true"></i></a>
+      </div>
+      <div class="phone-home-indicator"></div>
+    </div>
+  </div>
+</div>
+
+<div class="page-content">
+
+<header class="page-hero wrap">
+  <div class="eyebrow reveal in">// MARK: - Projects</div>
+  <h1 class="reveal in">Four apps. Two on the App Store.</h1>
+  <p class="lede reveal in">MazdoorBook and Vastu-Cite are personal projects, built end-to-end by me. NexusChat and Edification are production apps I helped build as an iOS Developer at TMedia Business Solution.</p>
+</header>
+
+<section class="wrap" style="padding-top:32px;">
+  <div class="segmented-control reveal in" role="tablist" aria-label="Filter projects">
+    <button class="segment active" data-filter="all">All</button>
+    <button class="segment" data-filter="personal">Personal</button>
+    <button class="segment" data-filter="company">Company</button>
+  </div>
+</section>
+
+<section class="section wrap" style="padding-top:0;" data-category="personal">
+  <div class="mark-comment reveal">personalProjects</div>
+  <div class="project-grid">
+
+    <a href="projects/mazdoorbook.html" class="project-card reveal">
+      <div class="thumb thumb-app-icon" style="background:linear-gradient(135deg, var(--mint), var(--signal));">
+        <img src="assets/img/mazdoorbook/icon.jpg" alt="MazdoorBook app icon">
+      </div>
+      <div class="body">
+        <h3>MazdoorBook <span class="badge badge-personal">Personal</span></h3>
+        <p class="desc">Workforce-management app — attendance, employees, Razorpay payments, offline-first sync. Built entirely from scratch in SwiftUI.</p>
+        <div class="tag-row">
+          <span class="tag">SwiftUI</span><span class="tag">MVVM</span><span class="tag">Firebase</span><span class="tag">Razorpay</span><span class="tag">Localization</span>
+        </div>
+        <span class="card-link">View project <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+      </div>
+    </a>
+
+    <a href="projects/vastu-cite.html" class="project-card reveal">
+      <div class="thumb thumb-app-icon" style="background:linear-gradient(135deg, var(--mauve), var(--swift));">
+        <img src="assets/img/vastu-cite/icon.jpg" alt="Vastu-Cite app icon">
+      </div>
+      <div class="body">
+        <h3>Vastu-Cite <span class="badge badge-personal">Personal</span></h3>
+        <p class="desc">Published on the App Store — a Vastu calculation app with a guided flow and multilingual support.</p>
+        <div class="tag-row">
+          <span class="tag">SwiftUI</span><span class="tag">MVVM</span><span class="tag">Localization</span>
+        </div>
+        <span class="card-link">View project <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+      </div>
+    </a>
+  </div>
+</section>
+
+<section class="section wrap" style="padding-top:0;" data-category="company">
+  <div class="mark-comment reveal">companyProjects // TMedia Business Solution</div>
+  <div class="project-grid">
+
+    <a href="projects/nexuschat.html" class="project-card reveal">
+      <div class="thumb thumb-icon-row" style="justify-content:center;">
+        <div style="width:64px;height:64px;border-radius:16px;background:linear-gradient(135deg, var(--signal), var(--mauve));display:flex;align-items:center;justify-content:center;font-family:var(--font-display);font-weight:700;font-size:24px;color:var(--ink);">NC</div>
+      </div>
+      <div class="body">
+        <h3>NexusChat <span class="badge badge-company">Company</span></h3>
+        <p class="desc">A modern communication platform built from scratch — chat, groups, mentions, and a modular Repository Pattern architecture.</p>
+        <div class="tag-row">
+          <span class="tag">SwiftUI</span><span class="tag">MVVM</span><span class="tag">Repository Pattern</span>
+        </div>
+        <span class="card-link">View project <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+      </div>
+    </a>
+
+    <a href="projects/edification.html" class="project-card reveal">
+      <div class="thumb thumb-icon-row" style="justify-content:center;">
+        <div style="width:64px;height:64px;border-radius:16px;background:linear-gradient(135deg, var(--swift), var(--mint));display:flex;align-items:center;justify-content:center;font-family:var(--font-display);font-weight:700;font-size:24px;color:var(--ink);">ED</div>
+      </div>
+      <div class="body">
+        <h3>Edification <span class="badge badge-company">Company</span></h3>
+        <p class="desc">Enterprise School ERP for students, parents, teachers &amp; admins — attendance, exams, transport, digital library.</p>
+        <div class="tag-row">
+          <span class="tag">UIKit</span><span class="tag">MVC/MVVM</span><span class="tag">REST APIs</span>
+        </div>
+        <span class="card-link">View project <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+      </div>
+    </a>
+  </div>
+</section>
+
+</div>
+</div>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-note">© 2026 Rasool Nadaf. Built with Swift-brained CSS.</div>
+    <div class="footer-links">
+      <a href="mailto:rasoolnadaf2018@gmail.com">Email</a>
+      <a href="tel:+919353182445">Call</a>
+      <a href="https://github.com/Rasool-Nadaf" target="_blank" rel="noopener">GitHub</a>
+      <a href="https://www.linkedin.com/in/rasool-nadaf-2a7974299" target="_blank" rel="noopener">LinkedIn</a>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>

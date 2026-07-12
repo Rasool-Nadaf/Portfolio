@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NexusChat — Rasool Nadaf</title>
+<link rel="stylesheet" href="../assets/css/style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+
+<nav class="site-nav">
+  <div class="wrap">
+    <a href="../index.html" class="nav-brand"><span class="dot"></span> rasool.swift</a>
+    <div class="nav-right">
+      <a href="../assets/Rasool_Nadaf_Resume.pdf" download class="nav-cv"><span class="cv-full">Download CV</span><span class="cv-short">CV</span></a>
+    </div>
+  </div>
+</nav>
+
+<div class="page-shell">
+<div class="phone-nav-wrap">
+  <div class="phone-frame">
+    <div class="phone-notch"></div>
+    <div class="phone-screen">
+      <div class="phone-statusbar">
+        <span>9:41</span>
+        <span class="phone-statusbar-icons"><i class="fa-solid fa-signal" aria-hidden="true"></i><i class="fa-solid fa-wifi" aria-hidden="true"></i><i class="fa-solid fa-battery-full" aria-hidden="true"></i></span>
+      </div>
+      <div class="phone-notification">
+        <div class="notif-icon">RN</div>
+        <div class="notif-body">
+          <div class="notif-top"><span class="notif-app">Portfolio</span><span class="notif-time">now</span></div>
+          <div class="notif-msg">You're viewing Projects</div>
+        </div>
+      </div>
+      <div class="phone-grid">
+        <a href="../index.html" class="phone-tile"><i class="fa-solid fa-house" aria-hidden="true"></i><span>Home</span></a>
+        <a href="../experience.html" class="phone-tile"><i class="fa-solid fa-briefcase" aria-hidden="true"></i><span>Experience</span></a>
+        <a href="../skills.html" class="phone-tile"><i class="fa-solid fa-code" aria-hidden="true"></i><span>Skills</span></a>
+        <a href="../projects.html" class="phone-tile current"><i class="fa-solid fa-layer-group" aria-hidden="true"></i><span>Projects</span></a>
+        <a href="../achievements.html" class="phone-tile"><i class="fa-solid fa-trophy" aria-hidden="true"></i><span>Achievements</span></a>
+        <button type="button" class="phone-tile phone-tile-contact" data-contact-toggle aria-expanded="false" aria-controls="contactPanel"><i class="fa-solid fa-address-card" aria-hidden="true"></i><span>Contact</span></button>
+        <a href="../assets/Rasool_Nadaf_Resume.pdf" download class="phone-tile phone-tile-cv"><i class="fa-solid fa-download" aria-hidden="true"></i><span>Download CV</span></a>
+      </div>
+      <div class="phone-contact-panel" id="contactPanel" data-contact-panel hidden>
+        <a href="mailto:rasoolnadaf2018@gmail.com" class="contact-icon contact-icon-mail" aria-label="Email"><i class="fa-solid fa-envelope" aria-hidden="true"></i></a>
+        <a href="tel:+919353182445" class="contact-icon contact-icon-call" aria-label="Call"><i class="fa-solid fa-phone" aria-hidden="true"></i></a>
+        <a href="https://www.linkedin.com/in/rasool-nadaf-2a7974299" target="_blank" rel="noopener" class="contact-icon contact-icon-linkedin" aria-label="LinkedIn"><i class="fa-brands fa-linkedin" aria-hidden="true"></i></a>
+        <a href="https://github.com/Rasool-Nadaf" target="_blank" rel="noopener" class="contact-icon contact-icon-github" aria-label="GitHub"><i class="fa-brands fa-github" aria-hidden="true"></i></a>
+      </div>
+      <div class="phone-home-indicator"></div>
+    </div>
+  </div>
+</div>
+
+<div class="page-content">
+
+<header class="detail-hero wrap">
+  <div class="breadcrumb reveal in"><a href="../projects.html">Projects</a> / NexusChat</div>
+  <div class="detail-hero-top reveal in">
+    <div class="app-icon" style="display:flex;align-items:center;justify-content:center;background:linear-gradient(135deg, var(--signal), var(--mauve));font-family:var(--font-display);font-weight:700;font-size:26px;color:var(--ink);">NC</div>
+    <div>
+      <span class="badge badge-company">Company Project · TMedia Business Solution</span>
+    </div>
+  </div>
+  <h1 class="reveal in">NexusChat</h1>
+  <p class="tagline reveal in">A modern communication platform built completely from scratch using SwiftUI and MVVM — secure messaging, groups, and collaboration at scale.</p>
+  <div class="detail-actions reveal in">
+    <span class="btn btn-ghost" style="cursor:default; opacity:0.7;">Proprietary — screenshots not shown</span>
+  </div>
+</header>
+
+<section class="wrap detail-body" style="padding-top:56px;">
+  <div class="detail-content">
+
+    <h2>Overview</h2>
+    <p>
+      NexusChat is a communication platform I built as an iOS Developer, entirely from
+      scratch, using SwiftUI and an MVVM architecture designed for scale from day one.
+      It supports secure one-to-one and group messaging, user management, and team
+      collaboration features.
+    </p>
+
+    <h2>My role</h2>
+    <p>
+      I owned the application's architecture end to end — designing the MVVM structure,
+      Repository Pattern, and Service Layer that everything else was built on top of, then
+      implementing the chat experience, authentication, and reusable UI system myself.
+    </p>
+
+    <h2>Key features</h2>
+    <ul>
+      <li><strong>One-to-one &amp; group chat</strong>, including message forwarding, pinned messages, and user mentions.</li>
+      <li><strong>Authentication &amp; session management</strong>, with a full login and registration flow.</li>
+      <li><strong>User profiles</strong> with profile editing and user search.</li>
+      <li><strong>Notice Board</strong> for organization-wide announcements and updates.</li>
+      <li><strong>AppRouter + NavigationStack</strong> for centralized, predictable navigation.</li>
+      <li>A reusable networking layer (<strong>APIManager, APIService, APIEndpoints</strong>) built for scale.</li>
+      <li>A full library of reusable components — buttons, text fields, cards, chat bubbles, loading views, and alerts.</li>
+    </ul>
+
+    <h2>What I learned</h2>
+    <p>
+      Building NexusChat from the ground up was my first time owning a large-scale SwiftUI
+      architecture solo — designing the Repository Pattern and Service Layer, keeping state
+      management clean with ObservableObject and Published properties, and making sure the
+      whole thing stayed maintainable as features kept getting added.
+    </p>
+  </div>
+
+  <aside class="sidebar-card reveal">
+    <div class="modifier-chain">
+      <div class="head">NexusChatApp()</div>
+      <div><span class="dot-mod">.</span><span class="mod-name">architecture</span>(<span class="mod-arg">.mvvm</span>)</div>
+      <div><span class="dot-mod">.</span><span class="mod-name">stack</span>(<span class="mod-arg">.swiftUI</span>)</div>
+      <div><span class="dot-mod">.</span><span class="mod-name">networking</span>(<span class="mod-arg">.repositoryPattern</span>, <span class="mod-arg">.serviceLayer</span>)</div>
+      <div><span class="dot-mod">.</span><span class="mod-name">navigation</span>(<span class="mod-arg">.appRouter</span>)</div>
+      <div><span class="dot-mod">.</span><span class="mod-name">role</span>(<span class="mod-arg">.builtFromScratch</span>)</div>
+    </div>
+
+    <div class="group-title">Tech stack</div>
+    <div class="tag-row">
+      <span class="tag">SwiftUI</span><span class="tag">MVVM</span><span class="tag">Repository Pattern</span>
+      <span class="tag">REST APIs</span><span class="tag">Codable</span><span class="tag">NavigationStack</span>
+    </div>
+  </aside>
+</section>
+
+<section class="wrap" style="padding-bottom:80px;">
+  <a href="../projects.html" class="btn btn-ghost">← Back to all projects</a>
+</section>
+
+</div>
+</div>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-note">© 2026 Rasool Nadaf. Built with Swift-brained CSS.</div>
+    <div class="footer-links">
+      <a href="mailto:rasoolnadaf2018@gmail.com">Email</a>
+      <a href="tel:+919353182445">Call</a>
+      <a href="https://github.com/Rasool-Nadaf" target="_blank" rel="noopener">GitHub</a>
+      <a href="https://www.linkedin.com/in/rasool-nadaf-2a7974299" target="_blank" rel="noopener">LinkedIn</a>
+    </div>
+  </div>
+</footer>
+
+<script src="../assets/js/main.js"></script>
+</body>
+</html>

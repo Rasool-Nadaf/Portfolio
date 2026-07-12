@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MazdoorBook — Rasool Nadaf</title>
+<link rel="stylesheet" href="../assets/css/style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+
+<nav class="site-nav">
+  <div class="wrap">
+    <a href="../index.html" class="nav-brand"><span class="dot"></span> rasool.swift</a>
+    <div class="nav-right">
+      <a href="../assets/Rasool_Nadaf_Resume.pdf" download class="nav-cv"><span class="cv-full">Download CV</span><span class="cv-short">CV</span></a>
+    </div>
+  </div>
+</nav>
+
+<div class="page-shell">
+<div class="phone-nav-wrap">
+  <div class="phone-frame">
+    <div class="phone-notch"></div>
+    <div class="phone-screen">
+      <div class="phone-statusbar">
+        <span>9:41</span>
+        <span class="phone-statusbar-icons"><i class="fa-solid fa-signal" aria-hidden="true"></i><i class="fa-solid fa-wifi" aria-hidden="true"></i><i class="fa-solid fa-battery-full" aria-hidden="true"></i></span>
+      </div>
+      <div class="phone-notification">
+        <div class="notif-icon">RN</div>
+        <div class="notif-body">
+          <div class="notif-top"><span class="notif-app">Portfolio</span><span class="notif-time">now</span></div>
+          <div class="notif-msg">You're viewing Projects</div>
+        </div>
+      </div>
+      <div class="phone-grid">
+        <a href="../index.html" class="phone-tile"><i class="fa-solid fa-house" aria-hidden="true"></i><span>Home</span></a>
+        <a href="../experience.html" class="phone-tile"><i class="fa-solid fa-briefcase" aria-hidden="true"></i><span>Experience</span></a>
+        <a href="../skills.html" class="phone-tile"><i class="fa-solid fa-code" aria-hidden="true"></i><span>Skills</span></a>
+        <a href="../projects.html" class="phone-tile current"><i class="fa-solid fa-layer-group" aria-hidden="true"></i><span>Projects</span></a>
+        <a href="../achievements.html" class="phone-tile"><i class="fa-solid fa-trophy" aria-hidden="true"></i><span>Achievements</span></a>
+        <button type="button" class="phone-tile phone-tile-contact" data-contact-toggle aria-expanded="false" aria-controls="contactPanel"><i class="fa-solid fa-address-card" aria-hidden="true"></i><span>Contact</span></button>
+        <a href="../assets/Rasool_Nadaf_Resume.pdf" download class="phone-tile phone-tile-cv"><i class="fa-solid fa-download" aria-hidden="true"></i><span>Download CV</span></a>
+      </div>
+      <div class="phone-contact-panel" id="contactPanel" data-contact-panel hidden>
+        <a href="mailto:rasoolnadaf2018@gmail.com" class="contact-icon contact-icon-mail" aria-label="Email"><i class="fa-solid fa-envelope" aria-hidden="true"></i></a>
+        <a href="tel:+919353182445" class="contact-icon contact-icon-call" aria-label="Call"><i class="fa-solid fa-phone" aria-hidden="true"></i></a>
+        <a href="https://www.linkedin.com/in/rasool-nadaf-2a7974299" target="_blank" rel="noopener" class="contact-icon contact-icon-linkedin" aria-label="LinkedIn"><i class="fa-brands fa-linkedin" aria-hidden="true"></i></a>
+        <a href="https://github.com/Rasool-Nadaf" target="_blank" rel="noopener" class="contact-icon contact-icon-github" aria-label="GitHub"><i class="fa-brands fa-github" aria-hidden="true"></i></a>
+      </div>
+      <div class="phone-home-indicator"></div>
+    </div>
+  </div>
+</div>
+
+<div class="page-content">
+
+<header class="detail-hero wrap">
+  <div class="breadcrumb reveal in"><a href="../projects.html">Projects</a> / MazdoorBook</div>
+  <div class="detail-hero-top reveal in">
+    <img class="app-icon" src="../assets/img/mazdoorbook/icon.jpg" alt="MazdoorBook app icon">
+    <div>
+      <span class="badge badge-personal">Personal Project</span>
+    </div>
+  </div>
+  <h1 class="reveal in">MazdoorBook</h1>
+  <p class="tagline reveal in">A production-ready workforce-management app — attendance, employees, payments, and payroll — built completely from scratch in SwiftUI.</p>
+  <div class="detail-actions reveal in">
+    <a href="https://apps.apple.com/in/app/mazdoorbook/id6787487216" target="_blank" rel="noopener" class="btn btn-primary">Get it on the App Store</a>
+  </div>
+</header>
+
+<section class="wrap" style="padding-top:40px;">
+  <div class="screens-row reveal">
+    <img src="../assets/img/mazdoorbook/shot_1.jpg" alt="MazdoorBook screen 1">
+    <img src="../assets/img/mazdoorbook/shot_2.jpg" alt="MazdoorBook screen 2">
+    <img src="../assets/img/mazdoorbook/shot_3.jpg" alt="MazdoorBook screen 3">
+    <img src="../assets/img/mazdoorbook/shot_4.jpg" alt="MazdoorBook screen 4">
+    <img src="../assets/img/mazdoorbook/shot_5.jpg" alt="MazdoorBook screen 5">
+    <img src="../assets/img/mazdoorbook/shot_6.jpg" alt="MazdoorBook screen 6">
+    <img src="../assets/img/mazdoorbook/shot_7.jpg" alt="MazdoorBook screen 7">
+    <img src="../assets/img/mazdoorbook/shot_8.jpg" alt="MazdoorBook screen 8">
+    <img src="../assets/img/mazdoorbook/shot_9.jpg" alt="MazdoorBook screen 9">
+    <img src="../assets/img/mazdoorbook/shot_10.jpg" alt="MazdoorBook screen 10">
+  </div>
+</section>
+
+<section class="wrap detail-body">
+  <div class="detail-content">
+
+    <h2>Overview</h2>
+    <p>
+      MazdoorBook is a workforce-management application designed for small businesses and
+      contractors to manage attendance, employee records, and payments in one place. I built
+      it entirely on my own — from architecture decisions down to payment gateway integration —
+      as a way to prove out a production-grade SwiftUI + MVVM stack end to end.
+    </p>
+
+    <h2>Architecture</h2>
+    <p>
+      The app is organized into dedicated modules — Authentication, Attendance, Employees,
+      Payments, Profile, Home, and a Super Admin module for higher-level oversight. Networking
+      runs through a reusable <strong>APIService / APIManager / APIEndpoint</strong> layer with
+      Codable models and the Repository pattern, keeping the UI layer decoupled from how data
+      is fetched or cached.
+    </p>
+
+    <h2>Key features</h2>
+    <ul>
+      <li><strong>Secure authentication</strong> with session management and Keychain-backed storage.</li>
+      <li><strong>AppRouter + AppState</strong> driving NavigationStack-based routing across the app.</li>
+      <li><strong>Offline-first sync</strong> — actions taken without a connection are queued and background-synced automatically once connectivity returns, backed by network reachability monitoring.</li>
+      <li><strong>Razorpay Payment Gateway</strong> integration, including payment verification, status handling, PDF receipt generation, and receipt sharing.</li>
+      <li><strong>Multilingual localization</strong> across English, Hindi, Kannada, and Marathi.</li>
+      <li>Push notifications, Firebase Core, and Firebase Crashlytics for stability monitoring.</li>
+      <li>Reusable UI components built for consistency across every module.</li>
+    </ul>
+
+    <h2>Status</h2>
+    <p>The app is live on the App Store.</p>
+  </div>
+
+  <aside class="sidebar-card reveal">
+    <div class="modifier-chain">
+      <div class="head">MazdoorBookApp()</div>
+      <div><span class="dot-mod">.</span><span class="mod-name">architecture</span>(<span class="mod-arg">.mvvm</span>)</div>
+      <div><span class="dot-mod">.</span><span class="mod-name">stack</span>(<span class="mod-arg">.swiftUI</span>, <span class="mod-arg">.firebase</span>, <span class="mod-arg">.razorpay</span>)</div>
+      <div><span class="dot-mod">.</span><span class="mod-name">networking</span>(<span class="mod-arg">.repositoryPattern</span>)</div>
+      <div><span class="dot-mod">.</span><span class="mod-name">offlineFirst</span>(<span class="mod-arg">true</span>)</div>
+      <div><span class="dot-mod">.</span><span class="mod-name">localized</span>(<span class="mod-arg">.en, .hi, .kn, .mr</span>)</div>
+      <div><span class="dot-mod">.</span><span class="mod-name">role</span>(<span class="mod-arg">.soloBuild</span>)</div>
+    </div>
+
+    <div class="group-title">Tech stack</div>
+    <div class="tag-row">
+      <span class="tag">SwiftUI</span><span class="tag">MVVM</span><span class="tag">REST APIs</span><span class="tag">Firebase</span>
+      <span class="tag">Razorpay</span><span class="tag">Keychain</span><span class="tag">Codable</span>
+    </div>
+  </aside>
+</section>
+
+<section class="wrap" style="padding-bottom:80px;">
+  <a href="../projects.html" class="btn btn-ghost">← Back to all projects</a>
+</section>
+
+</div>
+</div>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-note">© 2026 Rasool Nadaf. Built with Swift-brained CSS.</div>
+    <div class="footer-links">
+      <a href="mailto:rasoolnadaf2018@gmail.com">Email</a>
+      <a href="tel:+919353182445">Call</a>
+      <a href="https://github.com/Rasool-Nadaf" target="_blank" rel="noopener">GitHub</a>
+      <a href="https://www.linkedin.com/in/rasool-nadaf-2a7974299" target="_blank" rel="noopener">LinkedIn</a>
+    </div>
+  </div>
+</footer>
+
+<script src="../assets/js/main.js"></script>
+</body>
+</html>
